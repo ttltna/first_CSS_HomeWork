@@ -1,0 +1,40 @@
+body{
+    margin-top:5%;
+    margin:auto;
+    width:800px;
+    height:850px;
+    background-color: black;
+    box-shadow: 10px 10px 10px 10px #ECEBEB;
+}
+
+header{
+    color:white;
+    margin-top:3%;
+    font-size:10px;
+    margin-left: 3%;
+    margin-right:3%;
+}
+
+.container{
+    display: inline-block;
+    width: 140px;
+}
+
+.blank_space{
+    width:800px;
+    height:100px;
+}
+
+.box{
+    margin:auto;
+    margin-top: 20px;
+    width:66%;
+    height:50px;
+    background-color: aquamarine;
+}
+.box1{background-color: #71C168;}
+.box2{background-color: #FDC858;}
+.box3{background-color: #F79647;}
+.box4{background-color: #EB5654;}
+.box5{background-color: #AA58A2;}
+.box6{background-color: #01AED0;}

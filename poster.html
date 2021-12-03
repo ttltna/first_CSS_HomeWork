@@ -4,61 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        span{
-            margin-right: 8%;
-        }
-        .frist_words{
-            font-size:100px;
-            font-weight: 700;
-        }
-        .other_words{
-            font-size:10px;
-        }
-        .poster{
-            margin-left:6.25%;
-            margin-top:50px;
-            width:800px;
-            background-color: black;
-            box-shadow: 10px 10px 10px 10px #ECEBEB;
-        }
-        .blank_space{
-            height:200px;
-            background-color: black;
-        }
-        .box{
-            margin-left:17%;
-            margin-right:17%;
-            margin-top: 20px;
-            width:66%;
-            height:50px;
-            background-color: aquamarine;
-        }
-        .box1{background-color: #71C168;}
-        .box2{background-color: #FDC858;}
-        .box3{background-color: #F79647;}
-        .box4{background-color: #EB5654;}
-        .box5{background-color: #AA58A2;}
-        .box6{background-color: #01AED0;}
-
-    </style>
+    <link rel="stylesheet" href="./poster.css">
+    <title>poster</title>
 </head>
-<body class = 'poster'>
-    <header style="margin-left: 5%; margin-right: 5%;">
-        <div style="color:white;">
-            <span class='frist_words'>07.</span>
-            <span class='other_words'>글자가</span>
-            <span class='other_words'>안보여서</span>
-            <span class='other_words'>못적어요</span>
-            <span class='other_words'>www.ttltnaaa@gmail.com</span>
-        </div>
-        <hr class = "one">
+<body>
+    <header>
+        <div class='container' style="font-size: 5rem;">07.</div>
+        <div class='container'>글자가<br>작아서<br>안보이더라구요.</div>
+        <div class='container'>그래서<br>이렇게<br>적었습니다.</div>
+        <div class='container'>wel<br>come</div>
+        <div class='container' style="text-align: right;">ttltnaaa@gmail.com</div>
+        <hr class='one'>
     </header>
-    <section>
-        <div class ='blank_space'></div>
+    <section id = "Empty space1">
+        <div class='blank_space'></div>
+        <div class='blank_space'></div>
     </section>
-    <section>
+    <section id ="Boxes">
         <div class = 'box box1'></div>
         <div class = 'box box2'></div>
         <div class = 'box box3'></div>
@@ -66,8 +28,8 @@
         <div class = 'box box5'></div>
         <div class = 'box box6'></div>
     </section>
-    <section>
-        <div class = 'blank_space'></div>
+    <section id = "Empty space2">
+        <div class='blank_space'></div>
     </section>
 </body>
 </html>
