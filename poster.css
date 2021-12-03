@@ -5,6 +5,7 @@ body{
     height:850px;
     background-color: black;
     box-shadow: 10px 10px 10px 10px #ECEBEB;
+    padding:0;
 }
 
 header{
@@ -13,24 +14,51 @@ header{
     font-size:10px;
     margin-left: 3%;
     margin-right:3%;
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
 }
 
 .container{
-    display: inline-block;
-    width: 140px;
+    padding:0;
+    margin:0;
+    display:inline-block;
+    width: 110px;
+    height:110px;
+    background-color: red;
+    color:white;
 }
 
-.blank_space{
-    width:800px;
-    height:100px;
+div{
+    padding:0;
+    margin:0;
+}
+
+.words{
+    position: relative;
+    padding:0;
+    margin:0;
+}
+
+.absolute_position{
+    position: absolute;
+    left : 300px;
+    background-color: green;
+}
+
+.Fixed_position{
+    position: fixed;
+    left:100px;
+    background-color: blue;
 }
 
 .box{
+    position:relative;
     margin:auto;
     margin-top: 20px;
     width:66%;
     height:50px;
-    background-color: aquamarine;
+    top:200px;
 }
 .box1{background-color: #71C168;}
 .box2{background-color: #FDC858;}
