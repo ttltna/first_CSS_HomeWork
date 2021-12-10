@@ -1,9 +1,6 @@
 /* 헤더 영역 */
 
 header{
-    margin:0;
-    padding:0;
-    
     width: 100%;
     height: 200px;
     color: white;
@@ -11,19 +8,19 @@ header{
 }
 
 .flex-container{
-    margin:0;
-    padding:0;
+    padding-top: 30px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items:baseline;
     margin-left: 3%;
     margin-right:3%;
+    padding-bottom:5px;
     border-bottom: 3px solid white;
 }
 
 .flex-words{
-    width:100px;
+    position: relative;
+    bottom: 10px;
     font-size: 10px;
     color : white;
     word-wrap: break-word;
@@ -37,7 +34,7 @@ section{
     display: flex;
     flex-direction: column;
     background-color: black;
-    justify-content: center;
+    justify-content:center;
     width : 100%;
     height: 90vh;
 }
@@ -45,9 +42,9 @@ section{
 .flex-box{
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 3%;
+    margin-top: 20px;
     width: 80%;
-    height: 70px;
+    height: 80px;
 }
 
 /* 박스 색상 */
