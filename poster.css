@@ -1,65 +1,56 @@
-body{
-    margin-top:5%;
-    margin:auto;
-    width:800px;
-    height:850px;
-    background-color: black;
-    box-shadow: 10px 10px 10px 10px #ECEBEB;
-    padding:0;
-}
+/* 헤더 영역 */
 
 header{
-    color:white;
-    margin-top:3%;
-    font-size:10px;
+    margin:0;
+    padding:0;
+    
+    width: 100%;
+    height: 200px;
+    color: white;
+    background-color: black;
+}
+
+.flex-container{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 3%;
     margin-right:3%;
-    border-bottom-color: white;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
+    border-bottom: 3px solid white;
 }
 
-.container{
-    padding:0;
-    margin:0;
-    display:inline-block;
-    width: 110px;
-    height:110px;
-    background-color: red;
-    color:white;
+.flex-words{
+    width:100px;
+    font-size: 10px;
+    color : white;
+    word-wrap: break-word;
 }
 
-div{
-    padding:0;
-    margin:0;
+/* 섹션 영역 */
+
+section{
+    margin : 0;
+    padding : 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    width : 100%;
+    height: 90vh;
 }
 
-.words{
-    position: relative;
-    padding:0;
-    margin:0;
+.flex-box{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    width: 80%;
+    height: 70px;
 }
 
-.absolute_position{
-    position: absolute;
-    left : 300px;
-    background-color: green;
-}
-
-.Fixed_position{
-    position: fixed;
-    left:100px;
-    background-color: blue;
-}
-
-.box{
-    position:relative;
-    margin:auto;
-    margin-top: 20px;
-    width:66%;
-    height:50px;
-    top:200px;
-}
+/* 박스 색상 */
 .box1{background-color: #71C168;}
 .box2{background-color: #FDC858;}
 .box3{background-color: #F79647;}
